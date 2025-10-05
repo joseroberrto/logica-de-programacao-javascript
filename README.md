@@ -6,12 +6,13 @@ Cada módulo do curso apresenta um **projeto prático**, no qual os conceitos de
 ---
 ## 📚 Estrutura do Repositório
 
-```plain
+   ```blash
 📦 logica-programacao-js-alura
  ┣ 📁 modulo01
  ┣ 📁 modulo02
  ┣ 📁 desafios
  ┗ 📄 README.mdS
+```
 
 
 ---
