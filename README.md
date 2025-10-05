@@ -7,7 +7,7 @@ Cada módulo do curso apresenta um **projeto prático**, no qual os conceitos de
 ## 📚 Estrutura do Repositório
 
    ```blash
-📦 logica-programacao-js-alura
+📦 logica-programacao-javascript
  ┣ 📁 modulo01
  ┣ 📁 modulo02
  ┣ 📁 desafios
