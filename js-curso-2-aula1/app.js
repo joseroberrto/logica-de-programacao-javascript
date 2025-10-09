@@ -8,6 +8,14 @@ exibirMensagemInicial();
 function exibirTextoNaTela(tag ,  texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    if ('speechSynthesis' in window) {
+        let utterance = new SpeechSynthesisUtterance(texto);
+        utterance.lang = 'pt-BR'; 
+        utterance.rate = 1.4; 
+        window.speechSynthesis.speak(utterance); 
+    } else {
+        console.log("Web Speech API não suportada neste navegador.");
+    }
 }
 
 function verificarChute(){
@@ -66,7 +74,7 @@ function reiniciarJogo(){
 function exibirMensagemInicial(){
     
     exibirTextoNaTela('p',`Escolha um número de 1 a ${quantidadeLimiteDeNumeros}`);
-    exibirTextoNaTela('h1',"Numero secreto");
+    exibirTextoNaTela('h1','Jogo do Número Secreto');
 }
 
 
