@@ -34,5 +34,6 @@ Durante o curso, são trabalhados os principais fundamentos da lógica de progra
 
 Alguns dos projetos abordados ao longo dos módulos:
 
-- 🎯 **Jogo de adivinhação de números** – exercitando condicionais e loops(modulo01)  
+- 🎯 **Jogo do número secreto** – projeto inicial exercitando condicionais e loops(modulo01)
+- 🎯 **Jogo do número secreto** - projeto final (modulo2)
 
